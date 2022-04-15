@@ -137,7 +137,7 @@ export const NavSidebar = ({ navLinks, ...props }: NavSidebarProps) => {
     <LinkList className="link-list">
       {navLinks.map((link, index) => {
         return (
-          <RouterLink to={link.to} key={index} selected={currentPath === link.to}>
+          <RouterLink to={link.to} key={index} selected={currentPath === link.to} aria-label={t(link.ariaLabel)}>
             <LinkIcon Component={link.icon} /> <LinkText>{t(link.text)}</LinkText>
           </RouterLink>
         );

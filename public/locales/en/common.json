@@ -159,5 +159,17 @@
     "dark": "Mono Dark",
     "explorer": "Explorer",
     "light": "Mono Light"
+  },
+  "aria-label": {
+    "navigation": {
+      "disclaimer": "This is a disclaimer",
+      "portfolio": "Portfolio is where you can check your asset",
+      "ironbank": "This is Iron Bank",
+      "labs": "This is Labs",
+      "settings": "Change your Settings here",
+      "vault": "Vault",
+      "vaults": "Checkout Yearn Strategies here",
+      "wallet": "Wallet"
+    }
   }
 }

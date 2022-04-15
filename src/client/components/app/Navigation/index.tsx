@@ -13,6 +13,7 @@ export interface NavigationLink {
   text: string;
   icon: ElementType;
   hideMobile?: boolean;
+  ariaLabel: string;
 }
 
 const StyledNavigation = styled.div``;
@@ -22,26 +23,31 @@ const navLinks = [
     to: '/portfolio',
     text: 'navigation.portfolio',
     icon: WalletIcon,
+    ariaLabel: 'aria-label.navigation.portfolio',
   },
   {
     to: '/vaults',
     text: 'navigation.vaults',
     icon: VaultIcon,
+    ariaLabel: 'aria-label.navigation.vaults',
   },
   {
     to: '/labs',
     text: 'navigation.labs',
     icon: LabsIcon,
+    ariaLabel: 'aria-label.navigation.labs',
   },
   {
     to: '/ironbank',
     text: 'navigation.ironbank',
     icon: IronBankIcon,
+    ariaLabel: 'aria-label.navigation.ironbank',
   },
   {
     to: '/settings',
     text: 'navigation.settings',
     icon: SettingsIcon,
+    ariaLabel: 'aria-label.navigation.settings',
     // hideMobile: true,
   },
 ];
